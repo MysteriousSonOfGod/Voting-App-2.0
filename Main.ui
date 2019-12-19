@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>666</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+
+#frame2
+{
+	background: grey;
+}
+#line1
+{
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	font: bold;
+	font-size: 15px;
+	color: red;
+}
+
+#line2
+{
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	font: bold;
+	font-size: 15px;
+	color: red;
+}
+
+#line3
+{
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	font: bold;
+	font-size: 15px;
+	color: red;
+}
+
+#line4
+{
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	font: bold;
+	font-size: 15px;
+	color: red;
+}
+
+#line5
+{
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	font: bold;
+	font-size: 15px;
+	color: red;
+}
+#line6
+{
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	font: bold;
+	font-size: 15px;
+	color: red;
+}
+#election1
+{
+	background-color: white;
+	color: red;
+	font: bold;
+}
+
+#election2
+{
+	background-color: black;
+	color: white;
+	font: bold;
+}
+
+#election3
+{
+	background-color: yellow;
+	color: red;
+	font: bold;
+}
+
+#election4
+{
+	background-color: violet;
+	color: white;
+	font: bold;
+}
+
+#election5
+{
+	background-color: pink;
+	color: white;
+	font: bold;
+}
+
+#election6
+{
+	background-color: brown;
+	color: white;
+	font: bold;
+}
+
+#election7
+{
+	background-color: blue;
+	color: white;
+	font: bold;
+}
+
+#election8
+{
+	background-color: green;
+	color: white;
+	font: bold;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>-1</y>
+      <width>431</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="election1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>191</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="election2">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>40</y>
+       <width>191</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="election3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>191</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="election4">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>170</y>
+       <width>191</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="election5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>300</y>
+       <width>191</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="election6">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>300</y>
+       <width>191</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="election7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>420</y>
+       <width>191</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="election8">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>420</y>
+       <width>191</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>10</y>
+       <width>241</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ffffff;&quot;&gt; CURRENT ELECTIONS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="line1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>666</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMENU">
+    <property name="title">
+     <string>MENU</string>
+    </property>
+    <widget class="QMenu" name="menuCHECK_POLLS">
+     <property name="title">
+      <string>CHECK POLLS</string>
+     </property>
+     <addaction name="actionCURRENT_POLLS"/>
+     <addaction name="actionPREVIOUS_RESULTS"/>
+    </widget>
+    <addaction name="menuCHECK_POLLS"/>
+    <addaction name="actionLOGOUT"/>
+    <addaction name="actionEXIT"/>
+   </widget>
+   <addaction name="menuMENU"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLOGOUT">
+   <property name="text">
+    <string>LOGOUT</string>
+   </property>
+  </action>
+  <action name="actionPREVIOUS_RESULTS">
+   <property name="text">
+    <string>PREVIOUS RESULTS</string>
+   </property>
+  </action>
+  <action name="actionCURRENT_POLLS">
+   <property name="text">
+    <string>CURRENT POLLS</string>
+   </property>
+  </action>
+  <action name="actionEXIT">
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
